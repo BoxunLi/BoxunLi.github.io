@@ -55,6 +55,9 @@ body {
     transition: background 500ms;
 }
 
+.mainNavbar img{
+    width: auto;
+}
 
 /* Landing */
 #identity h1 {

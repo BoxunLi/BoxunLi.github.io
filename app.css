@@ -24,7 +24,6 @@
 }
 
 body {
-    background-image: image("background.png");
     font-family: NowLight;
     overflow-x: hidden;
 }
@@ -104,6 +103,7 @@ body {
 
 #juice {
     width: 7vw;
+    max-width: 200px;
 }
 
 #me {
@@ -113,6 +113,7 @@ body {
 
 #section1 {
     background: url(imgs/background1.png) no-repeat;
+    background-size: contain;
 }
 
 .up {

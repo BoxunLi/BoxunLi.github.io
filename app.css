@@ -86,6 +86,7 @@ body {
 
 #intro img{
     width: 30vw;
+    max-width: 300px;
 }
 
 .container-fluid .inner{
@@ -99,7 +100,17 @@ body {
     max-width: 100%;;
 }
 
+#dots {
+    width: ;
+}
 
+#juice {
+
+}
+
+#me {
+
+}
 /* Section 1 */
 
 #section1 {

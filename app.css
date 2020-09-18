@@ -74,7 +74,7 @@ body {
 
 
 .container-fluid {
-    height: 1000px;
+    height: 60vw;
     margin-top: 0px;
     padding-top: 0%;
 
@@ -95,7 +95,7 @@ body {
 
 
 .overlay {
-    margin-top: -40vw;
+    margin-top: -35vw;
 }
 
 #dots {

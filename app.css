@@ -23,6 +23,7 @@
     src: url(fonts/Now-Thin.otf);
 }
 
+
 body {
     font-family: NowLight;
     overflow-x: hidden;
@@ -32,6 +33,15 @@ body {
     display: none;
 }
 
+h1{
+    font-family: NowBold;
+    font-size: 10vw;
+}
+
+h2 {
+    font-family: NowRegular;
+    font-size: 1.5vw;
+}
 
 #mainNavbar {
     font-family: NowThin;
@@ -60,20 +70,18 @@ body {
 }
 
 /* Landing */
-#identity h1 {
-    font-family: NowRegular;
-    font-size: 1.5vw;
-}
+
 
 #hero {
-
+    height: 60vw;
     background: url(imgs/background.png) no-repeat;
     background-size: cover;
 }
 
 
 .container-fluid {
-    height: 60vw;
+    min-height: 500px;
+    height: 51.3vw;
     margin-top: 0px;
     padding-top: 0%;
 
@@ -85,6 +93,14 @@ body {
 
 #intro img{
     width: 30vw;
+}
+
+#projects {
+    width: 3vw;
+}
+
+#thisway {
+    width: 3vw;
 }
 
 .container-fluid .inner{
@@ -114,6 +130,18 @@ body {
 #section1 {
     background: url(imgs/background1.png) no-repeat;
     background-size: contain;
+    background-position-x: center;
+}
+#vstripe1 {
+    width: 0.3vw;
+}
+
+#section1foil {
+    width: 7vw;
+}
+
+#LI {
+ width: 20vw;
 }
 
 .up {
@@ -133,12 +161,13 @@ body {
 }
 
 .spacer {
-    height: 300px;
+    height: 15vw;
 }
 
 /* Section 2 */
 #section2 {
     background: url(imgs/background2.png) no-repeat;
+    background-size: contain;
 }
 
 
@@ -147,13 +176,14 @@ body {
 
 #section3 {
     background: url(imgs/background3.png) no-repeat;
+    background-size: contain;
 }
 
 
 /* footer */
 
 .footer{
-    height: 700px;
+    height: 40vw;
     background-color: #0A0A0A;
 }
 .blurb h2 {

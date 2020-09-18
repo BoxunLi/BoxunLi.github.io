@@ -1,0 +1,159 @@
+@font-face {
+    font-family: NowRegular;
+    src: url(fonts/Now-Regular.otf);
+  }
+
+@font-face {
+    font-family: NowMedium;
+    src: url(fonts/Now-Medium.otf);
+}
+
+@font-face {
+    font-family: NowBold;
+    src: url(fonts/Now-Bold.otf);
+}
+
+@font-face {
+    font-family: NowLight;
+    src: url(fonts/Now-Light.otf);
+}
+
+@font-face {
+    font-family: NowThin;
+    src: url(fonts/Now-Thin.otf);
+}
+
+body {
+    background-image: image("background.png");
+    font-family: NowLight;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+#mainNavbar {
+    font-family: NowThin;
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+
+}
+#mainNavbar .nav-link:hover {
+    color: #A9EFE9;
+}
+
+.nav-item{
+    padding-right: 50px;
+}
+.navbar.scrolled {
+    background-color: #000000;
+    transition: background 500ms;
+}
+
+
+/* Landing */
+#identity h1 {
+    font-family: NowRegular;
+    font-size: 1.5rem;
+}
+
+#hero {
+
+    background: url(imgs/background.png) no-repeat;
+    background-size: cover;
+}
+
+
+.container-fluid {
+    height: 1000px;
+    margin-top: 0px;
+    padding-top: 0%;
+
+}
+
+#intro{
+    margin-top: 20%;
+}
+
+.container-fluid .inner{
+    height: 400px;
+    margin-top: 15%;
+}
+
+
+.overlay {
+    margin-top: -55.55%;
+    max-width: 100%;;
+}
+
+
+/* Section 1 */
+
+#section1 {
+    background: url(imgs/background1.png) no-repeat;
+}
+
+.up {
+    margin-top: -15%;
+}
+
+.upMore {
+    margin-top: -30%;
+}
+
+.down {
+    margin-top: 13%;
+}
+
+.left {
+    margin-left: -10%;
+}
+
+.spacer {
+    height: 300px;
+}
+
+/* Section 2 */
+#section2 {
+    background: url(imgs/background2.png) no-repeat;
+}
+
+
+
+/* Section 3 */
+
+#section3 {
+    background: url(imgs/background3.png) no-repeat;
+}
+
+
+/* footer */
+
+.footer{
+    height: 700px;
+    background-color: #0A0A0A;
+}
+.blurb h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}

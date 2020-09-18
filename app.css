@@ -27,6 +27,7 @@
 body {
     font-family: NowLight;
     overflow-x: hidden;
+    background-color: #000000;
 }
 
 ::-webkit-scrollbar {
@@ -43,9 +44,39 @@ h2 {
     font-size: 1.5vw;
 }
 
+/* The Beginning */
+.beginning {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+#enter {
+    
+    background: url(imgs/closeddoor.png) no-repeat ;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    width: 20vw;
+}
+
+#enter:hover {
+    background: url(imgs/opendoor.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#enter img{
+    width: 20vw;
+    opacity: 0%;
+}
+
+
 #mainNavbar {
     font-family: NowThin;
-    font-size: 1.5rem;
+    font-size: 1.5rem;  
 }
 
 #mainNavbar .nav-link {
@@ -144,6 +175,10 @@ h2 {
  width: 20vw;
 }
 
+
+.smallup {
+    margin-top: -5%;
+}
 .up {
     margin-top: -15%;
 }
@@ -163,6 +198,16 @@ h2 {
 .spacer {
     height: 15vw;
 }
+
+.thumbnails{
+    height: 30vw;
+}
+.project1:hover   {
+    background: url(imgs/thumbnail.png) no-repeat;
+    background-size: contain;
+}
+
+
 
 /* Section 2 */
 #section2 {

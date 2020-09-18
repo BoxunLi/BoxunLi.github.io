@@ -86,7 +86,6 @@ body {
 
 #intro img{
     width: 30vw;
-    max-width: 300px;
 }
 
 .container-fluid .inner{
@@ -96,20 +95,19 @@ body {
 
 
 .overlay {
-    margin-top: -55.55%;
-    max-width: 100%;;
+    margin-top: -40vw;
 }
 
 #dots {
-    width: ;
+    width: 15vw;
 }
 
 #juice {
-
+    width: 7vw;
 }
 
 #me {
-
+    width: 30vw;
 }
 /* Section 1 */
 

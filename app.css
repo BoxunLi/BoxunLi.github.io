@@ -44,6 +44,14 @@ h2 {
     font-size: 1.5vw;
 }
 
+a {
+    text-decoration: none;
+
+}
+a:hover {
+    text-decoration: none;
+}
+
 /* The Beginning */
 .beginning {
     height: 100vh;
@@ -203,7 +211,12 @@ h2 {
     height: 22vw;
 }
 
-
+.project1 h1{
+    color: #0A0A0A;
+}
+.project1 h2{
+    color: #0A0A0A;
+}
 
 .projectlight:hover h1 {
     color: #D1D1D1;

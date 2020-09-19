@@ -200,13 +200,45 @@ h2 {
 }
 
 .thumbnails{
-    height: 30vw;
+    height: 22vw;
 }
+
+
+
+.projectlight:hover h1 {
+    color: #D1D1D1;
+}
+.projectlight:hover h2 {
+    color: #D1D1D1;
+}
+
+.projectdark h1 {
+    color: #D1D1D1;
+}
+.projectdark h2 {
+    color: #D1D1D1;
+}
+.projectdark:hover h1 {
+    color: #0A0A0A;
+}
+.projectdark:hover h2 {
+    color: #0A0A0A;
+}
+
+
 .project1:hover   {
-    background: url(imgs/thumbnail.png) no-repeat;
+    background: url(imgs/thumbnail1.png) no-repeat;
+    background-size: contain;  
+}
+.project2:hover {
+    background: url(imgs/thumbnail2.png) no-repeat;
     background-size: contain;
 }
 
+.project3:hover   {
+    background: url(imgs/thumbnail3.png) no-repeat;
+    background-size: contain;  
+}
 
 
 /* Section 2 */

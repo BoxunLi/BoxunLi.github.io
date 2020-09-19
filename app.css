@@ -27,7 +27,7 @@
 body {
     font-family: NowLight;
     overflow-x: hidden;
-    background-color: #000000;
+    background-color: #0A0A0A;
 }
 
 ::-webkit-scrollbar {
@@ -211,10 +211,10 @@ a:hover {
     height: 22vw;
 }
 
-.project1 h1{
+.projectlight h1{
     color: #0A0A0A;
 }
-.project1 h2{
+.projectlight h2{
     color: #0A0A0A;
 }
 
@@ -275,6 +275,13 @@ a:hover {
 .footer{
     height: 40vw;
     background-color: #0A0A0A;
+}
+
+
+
+/* hyivyapp */
+.hyivyapp img{
+    width: 60vw;
 }
 .blurb h2 {
     color: #ea1c2c;

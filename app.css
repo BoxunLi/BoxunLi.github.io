@@ -373,8 +373,11 @@ font-size: 5vw;
 /* hyivyweb */
 
 /* hyivyapp */
-.hyivyapp img{
-    width: 60vw;
+#lotsapps {
+    background: url(imgs/appbackground.svg);
+    background-size: contain;
+    background-position-x: center;
+    height: 126vw;
 }
 
 

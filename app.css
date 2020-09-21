@@ -26,7 +26,7 @@
 
 body {
     font-family: NowLight;
-    overflow-x: hidden;
+
     background-color: #0A0A0A;
 }
 
@@ -378,6 +378,10 @@ a:hover {
         height: 100vh;
         background: url(imgs/background.png) no-repeat;
         background-size: cover;
+        width: 100vw;
+        padding-right: 0%;
+        padding-left: 0%;
+        margin: 0%;
     }
     
     #intro{
@@ -401,10 +405,14 @@ a:hover {
     
     .container-fluid .inner{
         height: 100vh;
+        width: 100vw;
         margin-top:-1000px;
         padding-top: 500px;
     }
     
+    .row {
+        width: 100vw;
+    }
     #dots {
         margin-top: 100px;
         width: 200px;
@@ -490,10 +498,10 @@ a:hover {
 
 
     .projectlight h1{
-        color: #0A0A0A;
+        color: #D1D1D1;
     }
     .projectlight h2{
-        color: #0A0A0A;
+        color: #D1D1D1;
     }
 
     .projectlight:hover h1 {
@@ -504,10 +512,10 @@ a:hover {
     }
 
     .projectdark h1 {
-        color: #D1D1D1;
+        color: #0A0A0A;
     }
     .projectdark h2 {
-        color: #D1D1D1;
+        color: #0A0A0A;
     }
     .projectdark:hover h1 {
         color: #0A0A0A;

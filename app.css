@@ -397,6 +397,40 @@ font-size: 5vw;
 }
 
 
+/* Meraki */
+
+.bg-bl{
+    background-color: #0A0A0A;
+    
+}
+
+.bg-bl p{
+    color: white;
+    
+}
+
+#merakisection2 {
+    background: url(imgs/meraki3.png);
+    background-size: contain;
+    background-position-x: center;
+    height: 52.45vw;
+}
+
+#merakibigsection {
+    background: url(imgs/meraki6.png);
+    background-size: contain;
+    background-position-x: center;
+    height: 152.6vw;
+
+}
+
+#lower {
+    z-index: 0;
+}
+
+#higher {
+    z-index: 2;
+}
 .blurb h2 {
     color: #ea1c2c;
     font-weight: 100;

@@ -379,7 +379,10 @@ font-size: 5vw;
 
 
 /*  */
-
+#center-me {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .blurb h2 {

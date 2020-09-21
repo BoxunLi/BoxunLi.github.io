@@ -400,7 +400,7 @@ a:hover {
     }
     
     .container-fluid .inner{
-        height: 100px;
+        height: 100vh;
         margin-top:-1000px;
         padding-top: 500px;
     }
@@ -517,31 +517,40 @@ a:hover {
     }
 
 
-    .project1:hover   {
+    .project1  {
+        margin-top: -180px;
         background: url(imgs/thumbnail1.png) no-repeat;
         background-size: contain;  
     }
-    .project2:hover {
+    .project2 {
+        margin-top: -20px;
         background: url(imgs/thumbnail2.png) no-repeat;
         background-size: contain;
     }
 
-    .project3:hover   {
+    .project3   {
+
+        margin-top: 20px;
         background: url(imgs/thumbnail3.png) no-repeat;
         background-size: contain;  
     }
 
-    .project4:hover   {
+    .project4   {
+        margin-top: -60px;
         background: url(imgs/thumbnail4.png) no-repeat;
         background-size: contain;  
     }
 
-    .project5:hover   {
+    .project5   {
+        margin-top: -80px;
+        margin-left: 40px;
         background: url(imgs/thumbnail5.png) no-repeat;
         background-size: contain;  
     }
 
-    .project6:hover   {
+    .project6  {
+        margin-top: 40px;
+        margin-left: 40px;
         background: url(imgs/thumbnail6.png) no-repeat;
         background-size: contain;  
     }

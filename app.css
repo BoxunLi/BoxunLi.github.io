@@ -308,6 +308,11 @@ a:hover {
     background-size: contain;  
 }
 
+.project6:hover   {
+    background: url(imgs/thumbnail6.png) no-repeat;
+    background-size: contain;  
+}
+
 
 /* Section 2 */
 #section2 {
@@ -346,7 +351,11 @@ a:hover {
     color: #D1D1D1;
 }
 
-
+/* section 4 */
+#section4 {
+    background-color: #0A0A0A;
+    height: 20vw;
+}
 
 /* Other sites */
 

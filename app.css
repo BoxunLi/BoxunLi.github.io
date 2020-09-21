@@ -60,6 +60,7 @@ a:hover {
 
 /* The Beginning */
 .beginning {
+    background-color: black;
     height: 100vh;
     justify-content: center;
     align-items: center;

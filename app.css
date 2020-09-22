@@ -399,12 +399,20 @@ a:hover {
         margin-right: 0px;
         width: 90vw;
     }
+
+
     #mainNavbar {
         width: 100vw;
         background-color: #0A0A0A;
     }
+
+    .navbar-brand img{
+        margin-left: -4vw;
+        width: 60px;
+    }
+
     #hero {
-        height: 700px;
+        height: 705px;
         background: url(imgs/background.png) no-repeat;
         background-size: cover;
         width: 100vw;
@@ -473,7 +481,7 @@ a:hover {
 
     .thumbnails{
         height: 40vw;
-        margin-left: 30px;
+        margin-left: 10vw;
         
 
     }
@@ -559,7 +567,7 @@ a:hover {
 
 
     .project1  {
-        margin-top: -120px;
+        margin-top: -140px;
         background: url(imgs/thumbnail1.png) no-repeat;
         background-size: contain;  
     }
@@ -571,7 +579,7 @@ a:hover {
 
     .project3   {
 
-        margin-top: -10px;
+        margin-top: 20px;
         background: url(imgs/thumbnail3.png) no-repeat;
         background-size: contain;  
     }
@@ -583,7 +591,7 @@ a:hover {
     }
 
     .project5   {
-        margin-top: -70px;
+        margin-top: -30px;
 
         background: url(imgs/thumbnail5.png) no-repeat;
         background-size: contain;  

@@ -374,7 +374,7 @@ a:hover {
     html, body {
         overflow-x: hidden;
       }
-      
+
     body {
         position: relative
     }
@@ -390,7 +390,7 @@ a:hover {
         width: 100vw;
     }
     #hero {
-        height: 100vh;
+        height: 87vh;
         background: url(imgs/background.png) no-repeat;
         background-size: cover;
         width: 100vw;
@@ -410,12 +410,13 @@ a:hover {
     
     #projects {
         padding-top: 20px;
-        width: 4vw;
+        width: 5vw;
     }
     
     #thisway {
         padding-top: 20px;
-        width: 4vw;
+        width: 5vw;
+        margin-left: -4vw;
     }
     
     .container-fluid .inner{
@@ -438,16 +439,17 @@ a:hover {
     }
     #me {
         position: absolute;
-        margin-left:0px;
-        margin-top: -130vw;
+        margin-left:50px;
+        margin-top: -150vw;
         padding-top: 247px;
-        width: 90vw;
+        width: 80vw;
     }
     
     #foil {
         
         width: 90vw;
         margin-top: -100px;
+        margin-left: 15vw;
         margin-right: 0vw;
 
     }

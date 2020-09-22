@@ -404,7 +404,7 @@ a:hover {
         background-color: #0A0A0A;
     }
     #hero {
-        height: 87vh;
+        height: 700px;
         background: url(imgs/background.png) no-repeat;
         background-size: cover;
         width: 100vw;
@@ -451,12 +451,12 @@ a:hover {
         margin-top: 100px;
         width: 200px;
         max-width: 5rem;
-        margin-left: 60vw;
+        margin-left: 70vw;
  
     }
     #me {
         position: absolute;
-        margin-left:50px;
+        margin-left: 15vw;
         margin-top: -150vw;
         padding-top: 247px;
         width: 80vw;

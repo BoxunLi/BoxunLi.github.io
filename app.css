@@ -401,6 +401,7 @@ a:hover {
     }
     #mainNavbar {
         width: 100vw;
+        background-color: #0A0A0A;
     }
     #hero {
         height: 87vh;
@@ -441,14 +442,17 @@ a:hover {
     
     #dots {
         margin-top: 100px;
+        padding-top: 40vw;
         width: 200px;
     }
     
     #juice {
+        position: absolute;
         margin-top: 100px;
         width: 200px;
         max-width: 5rem;
-        margin-left: 90px;
+        margin-left: 60vw;
+ 
     }
     #me {
         position: absolute;

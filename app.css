@@ -682,6 +682,7 @@ font-size: 5vw;
 #center-me {
     margin-left: auto;
     margin-right: auto;
+    max-width: 90vw;
 }
 
 

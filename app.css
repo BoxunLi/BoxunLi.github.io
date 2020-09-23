@@ -724,6 +724,10 @@ font-size: 5vw;
 }
 
 
+#aboutname h1{
+
+}
+
 @media (max-width: 768px) {
 
     /* Other sites */
@@ -732,6 +736,21 @@ font-size: 5vw;
         background-size: contain;
         background-position-x: center;
         padding: 10vw;
+    }
+
+    #sitetitleabout{
+        background: url(imgs/other-site-title.png) no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        padding: 10vw;
+        height: 51.33333vw;
+    }
+
+    #aboutname {
+    }
+
+    #aboutme {
+        margin-top: 20vw;
     }
 
     #sitetitle h1{

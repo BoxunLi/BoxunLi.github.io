@@ -246,13 +246,16 @@ a:hover {
 }
 
 .thumbnails{
+    transform-style: preserve-3d;
     height: 22vw;
 }
 
 .projectlight h1{
+    transform: translateZ(20px);
     color: #0A0A0A;
 }
 .projectlight h2{
+    transform: translateZ(20px);
     color: #0A0A0A;
 }
 
@@ -264,9 +267,11 @@ a:hover {
 }
 
 .projectdark h1 {
+    transform: translateZ(20px);
     color: #D1D1D1;
 }
 .projectdark h2 {
+    transform: translateZ(20px);
     color: #D1D1D1;
 }
 .projectdark:hover h1 {
@@ -306,6 +311,17 @@ a:hover {
     background-size: contain;  
 }
 
+.project7:hover   {
+    background: url(imgs/thumbnail5.png) no-repeat;
+    background-size: contain;  
+}
+
+.project8:hover   {
+    background: url(imgs/thumbnail6.png) no-repeat;
+    background-size: contain;  
+    
+}
+
 
 /* Section 2 */
 #section2 {
@@ -319,6 +335,7 @@ a:hover {
 /* Section 3 */
 
 #section3 {
+    height: 102.6vw;
     background: url(imgs/background3.png) no-repeat;
     background-size: contain;
 }
@@ -613,6 +630,20 @@ a:hover {
         background-size: contain;  
     }
 
+    .project7   {
+        margin-top: 20px;
+
+        background: url(imgs/thumbnail5.png) no-repeat;
+        background-size: contain;  
+    }
+
+    .project8  {
+        margin-top: 10px;
+
+        background: url(imgs/thumbnail6.png) no-repeat;
+        background-size: contain;  
+    }
+
 
     /* Section 2 */
     #section2 {
@@ -626,6 +657,7 @@ a:hover {
     /* Section 3 */
 
     #section3 {
+        height: 200vw;
         padding-right: 0;
         padding-left: 0;
         background: url(imgs/background3mobile.png) no-repeat;

@@ -27,7 +27,7 @@
 body {
     font-family: NowLight;
 
-    background-color: #0A0A0A;
+    background-color: #D1D1D1;
 }
 
 ::-webkit-scrollbar {
@@ -734,9 +734,7 @@ font-size: 5vw;
 }
 
 
-#aboutname h1{
 
-}
 
 @media (max-width: 768px) {
 
@@ -754,9 +752,6 @@ font-size: 5vw;
         background-position-x: center;
         padding: 10vw;
         height: 51.33333vw;
-    }
-
-    #aboutname {
     }
 
     #aboutme {

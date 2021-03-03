@@ -141,6 +141,15 @@ a:hover {
 /* Landing */
 
 
+
+
+.js-fade-slide-entry {
+    opacity: 0; /* used for animated fade-in */
+    transform: translateY(15%); /* used for animated slide-up*/
+    transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out
+  }
+
+
 #hero {
     height: 60vw;
     background: url(imgs/background.png) no-repeat;

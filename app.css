@@ -809,6 +809,16 @@ font-size: 5vw;
 }
 
 
+
+
+/* Kaiju */
+.kaiju img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+
 @media (max-width: 768px) {
 
     /* Other sites */

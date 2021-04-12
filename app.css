@@ -320,12 +320,12 @@ a:hover {
 }
 
 .project3:hover   {
-    background: url(imgs/thumbnail2.png) no-repeat;
+    background: url(imgs/thumbnail4.png) no-repeat;
     background-size: contain;  
 }
 
 .project4:hover   {
-    background: url(imgs/thumbnail4.png) no-repeat;
+    background: url(imgs/thumbnail2.png) no-repeat;
     background-size: contain;  
 }
 
@@ -372,7 +372,8 @@ a:hover {
 
 .footer{
     height: 35vw;
-    background: url(imgs/footerbackground.png);
+    background: url(imgs/footerbackground.png) no-repeat;
+    background-color: #0A0A0A;
     background-size: contain;
     padding-left: 15vw;
     padding-right: 15vw;
@@ -526,7 +527,7 @@ a:hover {
     #me {
         position: absolute;
         margin-left: 15vw;
-        margin-top: -160vw;
+        margin-top: -170vw;
         padding-top: 247px;
         width: 80vw;
     }
@@ -646,13 +647,13 @@ a:hover {
     .project3   {
 
         margin-top: 20px;
-        background: url(imgs/thumbnail2.png) no-repeat;
+        background: url(imgs/thumbnail4.png) no-repeat;
         background-size: contain;  
     }
 
     .project4   {
         margin-top: -50px;
-        background: url(imgs/thumbnail4.png) no-repeat;
+        background: url(imgs/thumbnail2.png) no-repeat;
         background-size: contain;  
     }
 
@@ -947,6 +948,17 @@ font-size: 3.5vw;
 
 
 }
+
+/* EO Portal */
+.data {
+    min-height: 350px;
+    height:fit-content; 
+    color: white; 
+    background-color: #333333; 
+    border-radius: 30px;
+}
+
+
 
 /* Animations */
 

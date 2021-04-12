@@ -315,12 +315,12 @@ a:hover {
     background-size: contain;  
 }
 .project2:hover {
-    background: url(imgs/thumbnail1.png) no-repeat;
+    background: url(imgs/EOportalthumbnail.png) no-repeat;
     background-size: contain;
 }
 
 .project3:hover   {
-    background: url(imgs/thumbnail4.png) no-repeat;
+    background: url(imgs/uwuxthumbnail.png) no-repeat;
     background-size: contain;  
 }
 
@@ -640,14 +640,14 @@ a:hover {
     }
     .project2 {
         margin-top: -20px;
-        background: url(imgs/thumbnail1.png) no-repeat;
+        background: url(imgs/EOportalthumbnail.png) no-repeat;
         background-size: contain;
     }
 
     .project3   {
 
         margin-top: 20px;
-        background: url(imgs/thumbnail4.png) no-repeat;
+        background: url(imgs/uwuxthumbnail.png) no-repeat;
         background-size: contain;  
     }
 
@@ -771,14 +771,14 @@ font-size: 3.5vw;
 }
 
 #merakisection2 {
-    background: url(imgs/meraki3.png);
+    background: url(imgs/meraki3.png) no-repeat;
     background-size: contain;
     background-position-x: center;
     height: 52.45vw;
 }
 
 #merakibigsection {
-    background: url(imgs/meraki6.png);
+    background: url(imgs/meraki6.png) no-repeat;
     background-size: contain;
     background-position-x: center;
     height: 152.6vw;

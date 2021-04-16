@@ -151,12 +151,8 @@ b {
 #mainNavbar .light .nav-link {
     color: #0A0A0A;
     font-size: 1.2rem;
+}
 
-}
-#mainNavbar .light .nav-link:hover {
-    color: #D1D1D1;
-    background-color: #0A0A0A;
-}
 
 
 
@@ -487,10 +483,28 @@ b {
     }
 
     #mainNavbar {
+        color: white !important;
         width: 100vw;
         background-color: #0A0A0A;
     }
 
+    .navbar-light {
+        color: #D1D1D1;
+    }
+
+    .navbar-toggler{
+        border-color: #D1D1D1;
+        color: #D1D1D1 !important;
+        opacity: 100%;
+        background-color: #D1D1D1;
+        border-radius: 0px;
+        
+    }
+
+    #mainNavbar .light .nav-link {
+        color: #D1D1D1;
+        font-size: 1.2rem;
+    }
     .navbar-brand img{
         margin-left: -4vw;
         width: 60px;

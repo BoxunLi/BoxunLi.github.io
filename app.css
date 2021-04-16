@@ -70,6 +70,10 @@ a:hover {
     text-decoration: none;
 }
 
+b {
+    font-family: NowBold;
+}
+
 .pl-6 {
     padding-left: 10vw;
 }
@@ -86,6 +90,7 @@ a:hover {
 .pt-6 {
     padding-top: 10vw;
 }
+
 
 
 /* The Beginning */
@@ -960,6 +965,38 @@ font-size: 3.5vw;
 }
 
 
+
+/* About Page */
+.about img {
+    object-fit: cover;
+    height: 60vh;
+    width: 100%;
+}
+.about a{
+    text-decoration: none;
+    color: #0A0A0A;
+}
+.about h1{
+    font-size: 6rem;
+}
+
+#aboutpic{
+    height: 70vh;
+}
+
+@media (max-width: 768px) {
+    .about h1{
+        font-size: 3rem;
+    }
+    #aboutpic{
+        height: 50vh;
+    }
+}
+.carousel-item img{
+    object-fit: cover;
+    height: 60vh;
+    width: 100%;
+}
 
 /* Animations */
 

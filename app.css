@@ -754,6 +754,16 @@ font-size: 3.5vw;
     height: 126.6vw;
 }
 
+#device, #gamification {
+    margin-left: -20%;
+}
+
+@media (max-width: 768px) {
+    #device, #gamification {
+        margin-left: -5%;
+    }
+}
+
 
 /*  */
 #center-me {
@@ -761,6 +771,9 @@ font-size: 3.5vw;
     margin-right: auto;
     max-width: 90vw;
 }
+
+
+
 
 
 /* Meraki */
@@ -897,6 +910,8 @@ font-size: 3.5vw;
         margin-right: 0;
         width: 100vw;
     }
+
+
 
     /*  */
     #center-me {

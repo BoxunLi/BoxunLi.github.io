@@ -744,9 +744,8 @@ b {
 font-size: 3.5vw;
 }
 
-/* hyivyweb */
 
-/* hyivyapp */
+/* hyivy*/
 #lotsapps {
     background: url(imgs/appbackground.svg);
     background-size: contain;
@@ -1011,6 +1010,29 @@ font-size: 3.5vw;
     object-fit: cover;
     height: 60vh;
     width: 100%;
+}
+
+
+
+/* Modals */
+
+.modal-dialog {
+
+    max-width: 95vw !important;
+    text-align: center;
+}
+
+button {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+.modal-dialog img {
+    margin: auto;
+    max-height: 95vh;
+    max-width: 100%;
 }
 
 /* Animations */

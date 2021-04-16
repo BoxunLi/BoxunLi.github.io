@@ -62,7 +62,7 @@
           <img src="imgs/ontariocover.png" style="width: 100%;" alt="">
         </div>
         
-        <div class="row align-items-start justify-content-center  pt-5 pb-5" style="background-color: #333333; color: white;">
+        <div class="row align-items-start justify-content-center pl-7 pr-7 pt-5 pb-5" style="background-color: #333333; color: white;">
           <div class="col-md-4">
             <h3>ROLE</h3>
             <br>
@@ -149,9 +149,33 @@
           <div class="col-12">
             <h2>Preliminary Work</h2>
             <p class="pt-3">After many workshops and meetings with board members, we made a total of 3 user journey maps to understand and represent the users’ experience.</p>
-            <img class="pt-3" style="width: 100%;" src="imgs/journeymap.png" alt="">
-            <img class="pt-3" style="width: 100%;" src="imgs/CurrentSCFAJourney.png" alt="">
-            <img class="pt-3" style="width: 100%;" src="imgs/FutureSCFAJourney.png" alt="">
+            <button button type="button" data-toggle="modal" data-target="#journey1">
+              <img class="" style="width: 100%;" src="imgs/journeymap.png" alt="">
+            </button>
+            <button button type="button" data-toggle="modal" data-target="#journey2">
+              <img class="" style="width: 100%;" src="imgs/CurrentSCFAJourney.png" alt="">
+            </button>
+            <button button type="button" data-toggle="modal" data-target="#journey3">
+              <img class="" style="width: 100%;" src="imgs/FutureSCFAJourney.png" alt="">
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade col-12" id="journey1" tabindex="-1" aria-labelledby="journey1" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                    <img src="imgs/journeymap.png" alt="">  
+              </div>
+            </div>
+            <div class="modal fade col-12" id="journey2" tabindex="-1" aria-labelledby="journey2" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                    <img src="imgs/CurrentSCFAJourney.png" alt="">  
+              </div>
+            </div>
+            <div class="modal fade col-12" id="journey3" tabindex="-1" aria-labelledby="journey3" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                    <img src="imgs/FutureSCFAJourney.png" alt="">  
+              </div>
+            </div>
+       
           </div>
           
         </div>

@@ -197,7 +197,7 @@ b {
 
 .container-fluid {
 
-    height: 50.95vw;
+    height: 50.9vw;
     margin-top: 0px;
     padding-top: 0%;
 
@@ -249,7 +249,7 @@ b {
 
 #section1 {
     background: url(imgs/background1.png) no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position-x: center;
 }
 #vstripe1 {
@@ -373,7 +373,7 @@ b {
 /* Section 2 */
 #section2 {
     background: url(imgs/background2.png) no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position-x: center;
 }
 
@@ -383,7 +383,7 @@ b {
 
 #section3 {
     background: url(imgs/background3.png) no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 

@@ -64,14 +64,18 @@ p{
 }
 a {
     text-decoration: none;
-
 }
 a:hover {
+    color: inherit;
     text-decoration: none;
 }
 
 b {
     font-family: NowBold;
+}
+
+img {
+    width: 100%;
 }
 
 .pl-6 {
@@ -297,36 +301,24 @@ b {
     height: 22vw;
 }
 
-.projectlight h1{
-    transform: translateZ(20px);
-    color: #0A0A0A;
-}
-.projectlight h2{
+.projectlight h1, .projectlight h2, .projectlight p{
     transform: translateZ(20px);
     color: #0A0A0A;
 }
 
-.projectlight:hover h1 {
-    color: #D1D1D1;
-}
-.projectlight:hover h2 {
-    color: #D1D1D1;
+.projectlight:hover h1,.projectlight:hover h2,.projectlight:hover p {
+    color: white;
 }
 
-.projectdark h1 {
+
+.projectdark h1, .projectdark h2, .projectdark p{
     transform: translateZ(20px);
     color: #D1D1D1;
 }
-.projectdark h2 {
-    transform: translateZ(20px);
-    color: #D1D1D1;
-}
-.projectdark:hover h1 {
+.projectdark:hover h1, .projectdark:hover h2, .projectdark:hover p  {
     color: #0A0A0A;
 }
-.projectdark:hover h2 {
-    color: #0A0A0A;
-}
+
 
 
 .project1:hover   {
@@ -778,11 +770,14 @@ font-size: 3.5vw;
 
 
 /* hyivy*/
-#lotsapps {
-    background: url(imgs/appbackground.svg);
-    background-size: contain;
-    background-position-x: center;
-    height: 126.6vw;
+
+#rationale {
+    background-color: #F8FFFE;
+    box-shadow: 0px 5px 15px 5px #7e7e7e2a;
+}
+
+#rationale b{
+    color: #3AADAA;
 }
 
 #device, #gamification {

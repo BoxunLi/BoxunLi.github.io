@@ -151,7 +151,15 @@
         <div class="row align-items-center  pt-6 pb-5">
           <div class="col-12">
             <h2>Preliminary Work</h2>
-            <p class="pt-3">After many workshops and meetings with board members, we made a total of 3 user journey maps to understand and represent the users’ experience.</p>
+            <p class="pt-3">To better understand and develop an accurate representation of the users’ experience. We ran numerous workshops and brainstorming sessions on Microsoft Teams. </p>
+            <p class="pt-3"><b>Whiteboarding: </b></p>
+
+            <button button type="button" data-toggle="modal" data-target="#whiteboard">
+              <img class="" style="width: 100%;" src="imgs/whiteboard.png" alt="">
+            </button>
+
+            <p class="pt-5"><b>Journey-mapping: </b></p>
+
             <button button type="button" data-toggle="modal" data-target="#journey1">
               <img class="" style="width: 100%;" src="imgs/journeymap.png" alt="">
             </button>
@@ -162,7 +170,16 @@
               <img class="" style="width: 100%;" src="imgs/FutureSCFAJourney.png" alt="">
             </button>
             
+            <p class="pt-5"><b>User flow diagram: </b></p>
+            <button button type="button" data-toggle="modal" data-target="#userflow">
+              <img class="" style="width: 100%;" src="imgs/userflow.png" alt="">
+            </button>
             <!-- Modal -->
+            <div class="modal fade col-12" id="whiteboard" tabindex="-1" aria-labelledby="whiteboard" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                    <img src="imgs/whiteboard.png" alt="">  
+              </div>
+            </div>
             <div class="modal fade col-12" id="journey1" tabindex="-1" aria-labelledby="journey1" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered">
                     <img src="imgs/journeymap.png" alt="">  
@@ -176,6 +193,11 @@
             <div class="modal fade col-12" id="journey3" tabindex="-1" aria-labelledby="journey3" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered">
                     <img src="imgs/FutureSCFAJourney.png" alt="">  
+              </div>
+            </div>
+            <div class="modal fade col-12" id="userflow" tabindex="-1" aria-labelledby="userflow" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                    <img src="imgs/userflow.png" alt="">  
               </div>
             </div>
        
@@ -204,48 +226,66 @@
           </div>
         </div>
 
-        <div class="row align-items-center  pt-5 pb-5">
+        
+
+        <div class="row align-items-center  pt-5">
           <div class="col-12">
             <h3>Feature Breakdown: Message Centre</h3>
-            <img class="pt-5 pb-5" style="width: 80%; margin-left: 10%;" src="imgs/messagecentre.png" alt="">
             <p class="pt-5">
               This is where all the messages sent to the applicant resides, listed from most to least recent. New messages are tagged with a new tag.  For each message, the applicant will also receive an email notification indicating that they have a new message in their message centre. Applicants can select and delete messages if they wish to do so. 
-            </p>
-            <h4 class="pt-5">Rationale</h4>
-            <p class="pt-3">
-              This replaces the meetings and appointments that were previously needed for the client to get any feedback on their application. Now, rather than arranging an appointment when amendments are required, the service providers can easily reach the applicant by sending them a message with instructions through the message centre. This saves the applicants a significant amount of time commuting and scheduling appointments with case workers.
             </p>
           </div>
         </div>
 
-        <div class="row align-items-center  pt-5 pb-5">
+        <div class="row align-items-center pt-3 pb-5">
+          <div class="col-lg-10">
+            <img class="" src="imgs/messagecentre.png" alt="">
+          </div>
+          <div class="col-lg-4 p-4" id="rationale1">
+            <h4>Rationale</h4>
+            <p>This replaces the meetings and appointments that were previously needed for the client to get any feedback on their application. Now, rather than arranging an appointment when amendments are required, the service providers can easily reach the applicant by sending them a message with instructions through the message centre. This saves the applicants a significant amount of time commuting and scheduling appointments with case workers.</p>
+          </div>
+        </div>
+
+
+        <div class="row align-items-center  pt-5">
           <div class="col-12">
             <h3>Feature Breakdown: Documents</h3>
-            <img class="pt-5 pb-5" style="width: 80%; margin-left: 10%;" src="imgs/documents.gif" alt="">
             <p class="pt-5">
               This document page allows the applicant to see the documents that are required, the documents they submitted, and the documents that have been approved laid out clearly and all in one place. The applicants can upload new documents that have been required of them, and indicate a category for the documents they upload, which makes the work of a caseworker much easier! If there are any problems with the submitted documents, the case workers can easily turn the document back to the applicant through the message center and ask for a resubmission. 
             </p>
-            <h4 class="pt-5">Rationale</h4>
-            <p class="pt-3">
-              During each application of a program, there can be up to 50 different documentations involved. Gathering and handling this amount of documents in paper is a huge pain and editing is almost impossible.
-              Having a digital portal to store scanned or digital documents is a huge improvement from dealing with over 100 pages of physical documents using folders.               
-            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-center pt-3 pb-5">
+          <div class="col-lg-10">
+            <img class="" src="imgs/documents.gif" alt="">
+          </div>
+          <div class="col-lg-4 p-4" id="rationale1">
+            <h4>Rationale</h4>
+            <p>During each application of a program, there can be up to 50 different documentations involved. Gathering and handling this amount of documents in paper is a huge pain and editing is almost impossible.
+              Having a digital portal to store scanned or digital documents is a huge improvement from dealing with over 100 pages of physical documents using folders.</p>
           </div>
         </div>
         
-        <div class="row align-items-center  pt-5 pb-5">
+        <div class="row align-items-center  pt-5">
           <div class="col-12">
             <h3>Feature Breakdown: Application</h3>
-            <img class="pt-5 pb-5" style="width: 80%; margin-left: 10%;" src="imgs/application.gif" alt="">
             <p class="pt-5">
               Finally, the goal of the project is to bring the application online, the originally 5 pages application form was converted to 4 sections of digital application. The clients have the ability to save their progress and come back to the application when they want to continue.  
               <br>
               The digital form is also responsive to the applicants input. Certain areas of the form that only applies to some people will only appear to them depending on the answers they chose in previous questions. 
             </p>
-            <h4 class="pt-5">Rationale</h4>
-            <p class="pt-3">
-              Other than making the application process more streamlined, user friendly and easy to track. The online application will have built-in validation, which ensures the application is complete before the user is able to submit. This greatly increases the success rate of the application on the first try and reduces delays in the application process.                
-            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-center pt-3 pb-5">
+          <div class="col-lg-10">
+            <img class="" src="imgs/application.gif" alt="">
+          </div>
+          <div class="col-lg-4 p-4" id="rationale1">
+            <h4>Rationale</h4>
+            <p>Other than making the application process more streamlined, user friendly and easy to track. The online application will have built-in validation, which ensures the application is complete before the user is able to submit. This greatly increases the success rate of the application on the first try and reduces delays in the application process.</p>
           </div>
         </div>
 

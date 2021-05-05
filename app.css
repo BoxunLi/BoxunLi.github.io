@@ -774,6 +774,7 @@ font-size: 3.5vw;
 #rationale {
     background-color: #F8FFFE;
     box-shadow: 0px 5px 15px 5px #7e7e7e2a;
+    border-radius: 1rem;
 }
 
 #rationale b{

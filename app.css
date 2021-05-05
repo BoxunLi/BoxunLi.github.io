@@ -78,6 +78,7 @@ img {
     width: 100%;
 }
 
+
 .pl-6 {
     padding-left: 10vw;
 }
@@ -86,10 +87,10 @@ img {
     padding-right: 10vw;
 }
 .pl-7{
-    padding-left: 23vw;
+    padding-left: 20vw;
 }
 .pr-7 {
-    padding-right: 23vw;
+    padding-right: 20vw;
 }
 .pt-6 {
     padding-top: 10vw;
@@ -382,10 +383,9 @@ img {
 /* footer */
 
 .footer{
-    height: 35vw;
+    height: 25vw;
     background: url(imgs/footerbackground.png) no-repeat;
-    background-color: #0A0A0A;
-    background-size: contain;
+    background-size: cover;
     padding-left: 15vw;
     padding-right: 15vw;
     padding-top: 10vw;
@@ -395,7 +395,7 @@ img {
 #homefooter{
     height: 35vw;
     background: url(imgs/homefooter.png);
-    background-size: contain;
+    background-size: cover;
     padding-left: 15vw;
     padding-right: 15vw;
     padding-top: 10vw;
@@ -404,7 +404,7 @@ img {
 
 .footer h2 {
     color: #D1D1D1;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 .footer p {
@@ -413,7 +413,7 @@ img {
 
 .footer .icons{
     min-width: 20px;
-    width: 5vw;
+    width: 4vw;
 }
 /* section 4 */
 #section4 {
@@ -761,12 +761,25 @@ img {
 
 #sections {
     height: fit-content;
-    background-color: #D1D1D1;
+    background-color: #ffffff;
 }
 
 #sections h2 {
 font-size: 3.5vw;
 }
+
+
+#sections-dark {
+    color: #f1f1f1;
+    height: fit-content;
+    background-color: #0a0a0a;
+}
+
+#sections-grey {
+    height: fit-content;
+    background-color: #D1D1D1;
+}
+
 
 
 /* hyivy*/
@@ -808,6 +821,10 @@ font-size: 3.5vw;
     #device, #gamification {
         margin-left: -5%;
     }
+}
+
+.titleimg {
+    width: fit-content;
 }
 
 
@@ -928,10 +945,6 @@ font-size: 3.5vw;
         margin-top: 15vh;
     }
     
-    #sections {
-        height: fit-content;
-        background-color: #D1D1D1;
-    }
     
     #sections h2 {
         font-size: 3rem;

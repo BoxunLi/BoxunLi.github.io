@@ -1089,6 +1089,7 @@ button {
     margin: auto;
     max-height: 95vh;
     max-width: 100%;
+    object-fit: contain;
 }
 
 

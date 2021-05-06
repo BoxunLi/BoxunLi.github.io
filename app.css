@@ -764,7 +764,7 @@ img {
     background-color: #ffffff;
 }
 
-#sections h2 {
+#sections h2, #sections-dark h2{
 font-size: 3.5vw;
 }
 
@@ -821,10 +821,6 @@ font-size: 3.5vw;
     #device, #gamification {
         margin-left: -5%;
     }
-}
-
-.titleimg {
-    width: fit-content;
 }
 
 
@@ -946,7 +942,7 @@ font-size: 3.5vw;
     }
     
     
-    #sections h2 {
+    #sections h2, #sections-dark h2{
         font-size: 3rem;
     }
     

@@ -78,6 +78,9 @@ img {
     width: 100%;
 }
 
+strong {
+    font-family: NowMedium;
+}
 
 .pl-6 {
     padding-left: 10vw;

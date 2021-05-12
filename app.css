@@ -822,11 +822,21 @@ font-size: 3.5vw;
     margin-left: -20%;
 }
 
+#devicetxt{
+   margin-left: -9%;
+}
+
 @media (max-width: 768px) {
     #device, #gamification {
         margin-left: -5%;
     }
+    #device {
+        margin-left: 0%;
+        padding: 15px !important;
+    }
 }
+
+
 
 
 /*  */

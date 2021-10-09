@@ -137,6 +137,7 @@ strong {
 }
 
 #mainNavbar .nav-link {
+    letter-spacing: 2px;
     color: white;
     font-size: 1.2rem;
 }
@@ -305,6 +306,10 @@ strong {
     height: 22vw;
 }
 
+.thumbnails h2{
+    letter-spacing: 3px;
+}
+
 .projectlight h1, .projectlight h2, .projectlight p{
     transform: translateZ(20px);
     color: #0A0A0A;
@@ -408,6 +413,7 @@ strong {
 .footer h2 {
     color: #D1D1D1;
     font-size: 3vw;
+    letter-spacing: 3px;
 }
 
 .footer p {

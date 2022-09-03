@@ -331,26 +331,34 @@ strong {
 
 
 .project1:hover   {
-    background: url(imgs/thumbnail8.png) no-repeat;
+    background: url(imgs/thumbnail_shop.png) no-repeat;
     background-size: contain;  
+    cursor: not-allowed;
 }
+
+.disabled:hover {
+    cursor: not-allowed;
+
+}
+
+
 .project2:hover {
-    background: url(imgs/EOportalthumbnail.png) no-repeat;
+    background: url(imgs/thumbnail8.png) no-repeat;
     background-size: contain;
 }
 
 .project3:hover   {
-    background: url(imgs/uwuxthumbnail.png) no-repeat;
+    background: url(imgs/EOportalthumbnail.png) no-repeat;
     background-size: contain;  
 }
 
 .project4:hover   {
-    background: url(imgs/thumbnail2.png) no-repeat;
+    background: url(imgs/uwuxthumbnail.png) no-repeat;
     background-size: contain;  
 }
 
 .project5:hover   {
-    background: url(imgs/thumbnail5.png) no-repeat;
+    background: url(imgs/thumbnail2.png) no-repeat;
     background-size: contain;  
 }
 
